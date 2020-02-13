@@ -1,0 +1,11 @@
+C:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\Pizzeria\bin\Debug\netcoreapp3.1\Pizzeria.exe
+C:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\Pizzeria\bin\Debug\netcoreapp3.1\Pizzeria.deps.json
+C:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\Pizzeria\bin\Debug\netcoreapp3.1\Pizzeria.runtimeconfig.json
+C:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\Pizzeria\bin\Debug\netcoreapp3.1\Pizzeria.runtimeconfig.dev.json
+C:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\Pizzeria\bin\Debug\netcoreapp3.1\Pizzeria.dll
+C:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\Pizzeria\bin\Debug\netcoreapp3.1\Pizzeria.pdb
+C:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\Pizzeria\obj\Debug\netcoreapp3.1\Pizzeria.csprojAssemblyReference.cache
+C:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\Pizzeria\obj\Debug\netcoreapp3.1\Pizzeria.AssemblyInfoInputs.cache
+C:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\Pizzeria\obj\Debug\netcoreapp3.1\Pizzeria.AssemblyInfo.cs
+C:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\Pizzeria\obj\Debug\netcoreapp3.1\Pizzeria.dll
+C:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\Pizzeria\obj\Debug\netcoreapp3.1\Pizzeria.pdb
