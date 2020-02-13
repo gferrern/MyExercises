@@ -1,4 +1,4 @@
-# Hi Dani, Yannay, Guille!! 
+# Hi Quim, Daniel, Yannay, Guille!! 
 
 ### Development environment installation
   - .Net Core SDK: 
