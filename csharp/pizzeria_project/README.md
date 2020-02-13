@@ -7,7 +7,8 @@
     > https://visualstudio.microsoft.com/es/downloads
     <https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack>
     https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp
-
+  - Install Entity Framework by the following steps:
+	> https://docs.microsoft.com/es-es/ef/core/get-started/install/
 ### The project
 For run the project
 ```sh
