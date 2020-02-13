@@ -1,0 +1,11 @@
+c:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\htmlparser\bin\Debug\netcoreapp3.1\htmlparser.exe
+c:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\htmlparser\bin\Debug\netcoreapp3.1\htmlparser.deps.json
+c:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\htmlparser\bin\Debug\netcoreapp3.1\htmlparser.runtimeconfig.json
+c:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\htmlparser\bin\Debug\netcoreapp3.1\htmlparser.runtimeconfig.dev.json
+c:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\htmlparser\bin\Debug\netcoreapp3.1\htmlparser.dll
+c:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\htmlparser\bin\Debug\netcoreapp3.1\htmlparser.pdb
+c:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\htmlparser\obj\Debug\netcoreapp3.1\htmlparser.csprojAssemblyReference.cache
+c:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\htmlparser\obj\Debug\netcoreapp3.1\htmlparser.AssemblyInfoInputs.cache
+c:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\htmlparser\obj\Debug\netcoreapp3.1\htmlparser.AssemblyInfo.cs
+c:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\htmlparser\obj\Debug\netcoreapp3.1\htmlparser.dll
+c:\Users\opinno\Desktop\Guillermo_Ferrer\ejercicios_java\csharp\htmlparser\obj\Debug\netcoreapp3.1\htmlparser.pdb

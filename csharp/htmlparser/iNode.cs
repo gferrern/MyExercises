@@ -1,4 +1,4 @@
-public interface INode{
+/* public interface INode{
     void Open();
     void Close();
     void Write();
@@ -18,4 +18,4 @@ class Text:NodeBase{
     open nda
     write escribe
     close nada
-}
+}*/
