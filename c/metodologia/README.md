@@ -1,4 +1,32 @@
-EJERCICIO_10: Diseñar algoritmo para leer 3 valores reales, a,b,c y determinar el tipo de triangulo.
+Install mingw
+http://www.mingw.org/
+
+Add mingw bin folder to envirorment PATH
+
+For compile:
+```sh
+gcc EJ-1.cpp -o EJ-1.exe
+```
+
+Exercises to correct:
+2
+14 no funciona
+40 desconozco como se caclula el interes producido por el capital, redito, tiempo de imposiciÃ³n
+41 a medias
+44
+47 falla
+49 falla
+50 falla
+55 falla
+61 falla
+
+
+***
+
+PSEUDOCODIGOS:
+
+***
+EJERCICIO_10: DiseÃ±ar algoritmo para leer 3 valores reales, a,b,c y determinar el tipo de triangulo.
 ALGORITMO ejercicio_10: [CORREGIDO]
 VARIABLES:
 A,B,C:real
@@ -25,20 +53,20 @@ INICIO
 	FINSI
 
 	SI A^2=B^2+C^2
-		ESCRIBIR("Forman rectángulo")
+		ESCRIBIR("Forman rectÃ¡ngulo")
 	FINSI
 
 	SI A^2>B^2+C^2
-		ESCRIBIR("Forman obstángulo")
+		ESCRIBIR("Forman obstÃ¡ngulo")
 	FINSI
 
 	SI A^2<B^2+C^2
-		ESCRIBIR("Forman acutángulo")
+		ESCRIBIR("Forman acutÃ¡ngulo")
 	FINSI
 FIN
 
-2º OPCION
---------------------------------------------------------------------------------
+2Âº OPCION
+***
 ALGORITMO EJERCICIO 10 [CORREGIDO]
 
 VARIABLES:
@@ -66,15 +94,15 @@ INICIO
 		A>=B+C: 
 			ESCRIBIR("No forman triangulo")
 		A^2=B^2+C^2: 	
-			ESCRIBIR("Forman rectángulo")
+			ESCRIBIR("Forman rectÃ¡ngulo")
 		A^2>B^2+C^2: 
-			ESCRIBIR("Forman obstángulo")
+			ESCRIBIR("Forman obstÃ¡ngulo")
 		A^2<B^2+C^2: 	
-			ESCRIBIR("Forman acutángulo")
+			ESCRIBIR("Forman acutÃ¡ngulo")
 	FINCASO
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_11: [CORREGIDO]
 
 VARIABLES
@@ -84,7 +112,7 @@ INICIO
 	NUM<--0 
 
 	mientras  NUM <0 
-		Escribe: ("Introduce un nº")
+		Escribe: ("Introduce un nÂº")
 		Leer(NUM)
 	finmientras
 
@@ -105,8 +133,8 @@ INICIO
 	FINSI
 FIN
 
-OPCION 2º
---------------------------------------------------------------------------------
+OPCION 2Âº
+***
 ALGORITMO EJERCICIO 11_2 [CORREGIDO]
 VARIABLES:
 NUM:ENTERO
@@ -115,7 +143,7 @@ INICIO
 	NUM<--0 
 
 	mientras  NUM <0 
-		Escribe: ("Introduce un nº")
+		Escribe: ("Introduce un nÂº")
 		Leer (NUM)
 	finmientras
 
@@ -130,8 +158,8 @@ INICIO
 			NUM<--NUM-(NUM*0.05);
 	FINCASO
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_12: [CORREGIDO]
 
 VARIABLES
@@ -141,7 +169,7 @@ NUM:ENTERO
 INICIO
 	NUM<-- -1
 	mientras  NUM <0  AND NUM >10 
-		Escribir: ("Introduce un nº")
+		Escribir: ("Introduce un nÂº")
 		Leer (NUM)
 	finmientras	
 	
@@ -166,8 +194,8 @@ INICIO
 
 FIN
 
-OPCION 2º
---------------------------------------------------------------------------------
+OPCION 2Âº
+***
 ALGORITMO OPCION2 [CORREGIDO]
 VARIABLES:
 NOTA:ENTERO
@@ -195,8 +223,8 @@ INICIO
 			ESCRIBIR("SOBR.")
 	FINCASO
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_13: [CORREGIDO]
 
 VARIABLES
@@ -239,8 +267,8 @@ INICIO
 		FINSI
 	FINSI
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_14: CREAR UN PROGRAMA Q NOS ESCRIBA EL DIA COMPLETO DE LA SEMANA SI SE INTRODUCEN
 POR TECLADO LOS DOS PRIMEROS CARACTERES [CORREGIDO]
 
@@ -269,26 +297,26 @@ INICIO
 			ESCRIBIR("DOMINGO")
 	FINCASO
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_15: [CORREGIDO]
 VARIABLES
 ANYO:ENTERO
 INICIO
-	ESCRIBIR("INTRODUCE EL AÑO")
+	ESCRIBIR("INTRODUCE EL AÃ‘O")
 	LEER(ANYO)
 	SI ANYO MOD 4=0
 		SI ANYO MOD 100!=0 Y ANYO MOD 400=0
-			ESCRIBIR("Es un año Bisiesto")
+			ESCRIBIR("Es un aÃ±o Bisiesto")
 		SINO
-			ESCRIBIR("No es un año Bisiesto")
+			ESCRIBIR("No es un aÃ±o Bisiesto")
 		FINSI
 	SINO
-		ESCRIBIR("No es un año Bisiesto")
+		ESCRIBIR("No es un aÃ±o Bisiesto")
 	FINSI
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_16: [CORREGIDO]
 
 VARIABLES
@@ -306,8 +334,8 @@ INICIO
 		CONT<--CONT+1
 	HASTA CONT=5
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_17: [CORREGIDO]
 
 VARIABLES
@@ -321,8 +349,8 @@ INICIO
 		FINSI
 	HASTA NUM=100
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_18: [CORREGIDO]
 
 VARIABLES
@@ -336,8 +364,8 @@ INICIO
 		CONTADOR<--CONTADOR+1
 	HASTA CONTADOR<=100
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_19: [CORREGIDO]
 
 VARIABLES
@@ -353,8 +381,8 @@ INICIO
 	HASTA NUM=0
 	ESCRIBIR("HAY ",CONT,"NUM IMPARES")
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_20: [CORREGIDO]
 
 
@@ -375,8 +403,8 @@ INICIO
 	ESCRIBIR("LA SUMA DE LOS IMPARES ",IMPARES)
 
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_21: [CORREGIDO]
 
 VARIABLES
@@ -391,8 +419,8 @@ INICIO
 		CONT<--CONT+1
 	HASTA CONT=NUM
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_22: [CORREGIDO]
 
 VARIABLES
@@ -411,8 +439,8 @@ INICIO
 	HASTA CONT=100
 	ESCRIBIR("HAY ",NUMP," NUMEROS POSITIVOS")
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_23: [CORREGIDO]
 
 VARIABLES
@@ -431,8 +459,8 @@ INICIO
 	HASTA CONTADOR=30
 	ESCRIBIR("la suma es",NUM," y el producto es ",NUM2)
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_24: [CORREGIDO]
 
 VARIABLES
@@ -457,8 +485,8 @@ INICIO
 	ESCRIBIR("HAY ",NUMN," NUMEROS NEGATIVOS")
 	ESCRIBIR("HAY ",NULO," NULOS")
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_25: [CREO Q ESTA BIEN]
 
 
@@ -477,8 +505,8 @@ INICIO
 		FINSI
 	HASTA NULO=1
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_26: [CREO Q ESTA BIEN]
 
 VARIABLE
@@ -494,8 +522,8 @@ INICIO
 	MEDIA<--TOTAL/5
 	ESCRIBIR("LA MEDIA ES:",MEDIA)
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_27: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -507,8 +535,8 @@ INICIO
 		LEER(RESPUESTA)
 	HASTA NOT(RESPUESTA="S" OR RESPUESTA="N" OR RESPUESTA="s" OR RESPUESTA="n")
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_28: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -530,8 +558,8 @@ INICIO
 	ESCRIBIR("LA MEDIA ES:",MEDIA)
 
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_29: [CREO Q ESTA BIEN]
 VARIABLES 
 	CANTIDAD, NUMERO, CONTADOR, SUMA:ENTERO
@@ -562,8 +590,8 @@ INICIO
 
 	ESCRIBIR(suma/CANTIDAD)
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_30: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -582,8 +610,8 @@ INICIO
 	MEDIA<--TOTAL/CONTNUM
 	ESCRIBIR("LA MEDIA ES: ",MEDIA)
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_31: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -596,15 +624,15 @@ INICIO
 		CONT<--CONT-1
 	HASTA CONT=0
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_32: [CREO Q ESTA BIEN]
 
 VARIABLES
 MULTI,NUM,REST:ENTERO
 
 INICIO
-	ESCRIBIR("INTRODUCE EL Nº QUE QUIERAS VER SU TABLA DE MULTIPLICAR")
+	ESCRIBIR("INTRODUCE EL NÂº QUE QUIERAS VER SU TABLA DE MULTIPLICAR")
 	LEER(NUM)
 	MULTI<--1
 	REPETIR
@@ -613,8 +641,8 @@ INICIO
 		MULTI<--MULTI+1
 	HASTA MULTI=10
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 EJERCICIO_33: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -635,8 +663,8 @@ INICIO
 	ESCRIBIR("EL MAYOR ES ",MAYOR)
 	ESCRIBIR("EL MENOR ES ",MENOR)
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_34: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -656,8 +684,8 @@ INICIO
 			NUM1<--0
 	HASTA QUE PRESIONE LA TECLA ESC
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_35: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -684,8 +712,8 @@ INICIO
 	ESCRIBIR("EL QUE TIENE EL MAYOR SUELDO ES ",NOMMAYOR," Y SU SUELDO ES",SUELDOMAYOR)
 	ESCRIBIR("EL QUE TIENE EL MENOR SUELDO ES ",NOMMENOR," Y SU SUELDO ES",SUELDOMENOR)
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_36: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -709,8 +737,8 @@ INICIO
 		CONT<--CONT+1
 	FINPARA
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_37: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -736,8 +764,8 @@ INICIO
 	ESCRIBIR("la suma de los num impares es:"TOTALIMP)
 	ESCRIBIR("HAY ",CONT,"NUMEROS Y ",PARES," DE LOS NUMEROS SON PARES)
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_38: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -750,8 +778,8 @@ INICIO
 	FINPARA	
 	ESCRIBIR("MULTIPLOS ",CONT)
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_39: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -759,7 +787,7 @@ NUM,CONT:ENTERO
 
 INICIO
 	REPETIR
-		ESCRIBIR("INTRODUCE UN Nº PARA VER SUS DIVISORES")
+		ESCRIBIR("INTRODUCE UN NÂº PARA VER SUS DIVISORES")
 		LEER(NUM)
 	HASTA NUM>0
 	PARA CONT<--0 HASTA CONT=NUM
@@ -768,8 +796,8 @@ INICIO
 		FINSI
 	FINPARA
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_40:
 
 VARIABLES //NO ES NECESARIO
@@ -777,8 +805,8 @@ VARIABLES //NO ES NECESARIO
 INICIO
 
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_41:
 
 VARIABLES
@@ -796,8 +824,8 @@ INICIO
 	SUMA<--SUMA+CONT
 
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_42: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -809,8 +837,8 @@ INICIO
 		SUMA<--SUMA+PARES^2
 	FINPARA
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_43: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -822,8 +850,8 @@ INICIO
 		ESCRIBIR("NUM: ",CONTADOR)
 	FINPARA
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_44: [CREO Q ESTA BIEN]
 
 VARIABLES
@@ -850,8 +878,8 @@ SI NUM>100000
 	ESCRIBIR("EL NUMERO TIENE MAS DE 5 CIFRAS")
 FINSI
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_45:
 
 VARIABLES
@@ -871,8 +899,8 @@ INICIO
 	ESCRIBIR("HAY NUMPAR NUMEROS PARES",CONTPAR)
 	ESCRIBIR("LA SUMA ES",SUMA)
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_46:
 
 
@@ -896,8 +924,8 @@ INICIO
 		CONT<--CONT+1
 	HASTA CONT=NUM2
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_47:
 
 
@@ -924,8 +952,8 @@ INICIO
 		HASTA QUE NUM2<NUM1
 	FINSI
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_48:
 
 VARIABLES
@@ -942,8 +970,8 @@ REPETIR
 HASTA CONT=0
 ESCRIBIR("EL FACTORIAL ES:"FACTORIAL)
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_49: 
 
 VARIABLES
@@ -967,8 +995,8 @@ INICIO
 		ESCRIBIR("EL NUM NO ES PERFECTO")
 	FINSI
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_50:
 
 
@@ -985,8 +1013,8 @@ INICIO
 		CONT<--CONT+1
 	HASTA
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_51:
 
 VARIABLES
@@ -1002,8 +1030,8 @@ INICIO
 	RESULT<--NUM^NUM2
 	ESCRIBIR("LA POTENCIA DE NUM ES:",RESULT)
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_52:
 
 
@@ -1022,8 +1050,8 @@ INICIO
 		SUMA<--SUMA+NUM1
 	HASTA CONT=NUM2
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_53:
 
 VARIABLES
@@ -1035,8 +1063,8 @@ LEER(COCIENTE)
 ESCRIBIR("INTRODUCE EL RESTO")
 LEER(RESTO)
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_54:
 
 VARIABLES
@@ -1063,15 +1091,15 @@ MIENTRAS
 			CONT1<--CONT1+1
 	FINCASO
 	MIENTRAS PTA>0		
-		ESCRIBIR("EL Nº MONEDAS DE 100 SON:",CONT100)
-		ESCRIBIR("EL Nº MONEDAS DE 50 SON:",CONT50)
-		ESCRIBIR("EL Nº MONEDAS DE 25 SON:",CONT25)
-		ESCRIBIR("EL Nº MONEDAS DE 5 SON:",CONT5)
-		ESCRIBIR("EL Nº MONEDAS DE 1 SON:",CONT1)
+		ESCRIBIR("EL NÂº MONEDAS DE 100 SON:",CONT100)
+		ESCRIBIR("EL NÂº MONEDAS DE 50 SON:",CONT50)
+		ESCRIBIR("EL NÂº MONEDAS DE 25 SON:",CONT25)
+		ESCRIBIR("EL NÂº MONEDAS DE 5 SON:",CONT5)
+		ESCRIBIR("EL NÂº MONEDAS DE 1 SON:",CONT1)
 	FINMIENTRAS
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_55: JUEGO DE MARIEBAND
 
 VARIABLES
@@ -1099,8 +1127,8 @@ HASTA CTOMADAS=21
 
 ESCRIBIR("EL JUGADOR1 PIERDE")
 FIN
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+***
+***
 ALGORITMO EJERCICIO_58:
 VARIABLES
 a,b,c,X,x
@@ -1127,5 +1155,5 @@ INICIO
 	FINSI
 FIN
 
---------------------------------------------------------------------------------
+***
 HASTA 58 SIN 56 57
