@@ -9,6 +9,13 @@
     https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp
   - Install Entity Framework by the following steps:
 	> https://docs.microsoft.com/es-es/ef/core/get-started/install/
+  - WEB API, using this command:
+    dotnet add package Microsoft.AspNet.WebApi --version 5.2.7
+  - Redis: (Version 5.0.7)
+    > https://redis.io/download
+  - Postman:
+    > https://www.postman.com/
+
 ### The project
 For run the project
 ```sh
