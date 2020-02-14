@@ -7,7 +7,6 @@ For compile:
 ```sh
 gcc EJ-1.cpp -o EJ-1.exe
 ```
-
 Exercises to correct:
 2
 14 no funciona
