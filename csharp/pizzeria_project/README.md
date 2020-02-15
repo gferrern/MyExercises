@@ -1,4 +1,4 @@
-# Hi Quim, Daniel, Yannay, Guille!! 
+# Hi Quim, David, Yannay, Guille!! 
 
 ### Development environment installation
   - .Net Core SDK: 
@@ -7,10 +7,17 @@
     > https://visualstudio.microsoft.com/es/downloads
     <https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack>
     https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp
+  - Git:
+    > https://git-scm.com/
+  - Github web:
+    > https://github.com
+    Recomended Download GitHub Descktop:
+    > https://desktop.github.com/
   - Install Entity Framework by the following steps:
-	> https://docs.microsoft.com/es-es/ef/core/get-started/install/
+	  > https://docs.microsoft.com/es-es/ef/core/get-started/install/
+    > dotnet add package EntityFramework --version 6.4.0
   - WEB API, using this command:
-    dotnet add package Microsoft.AspNet.WebApi --version 5.2.7
+    > dotnet add package Microsoft.AspNet.WebApi --version 5.2.7
   - Redis: (Version 5.0.7)
     > https://redis.io/download
   - Postman:
