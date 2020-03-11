@@ -14,27 +14,10 @@ int main(void)
 		{
 			printf("Los numeros son iguales\n");
 		}
-		if(num>num2)
-		{
-			if(num<num3)
-			{
-				printf("el num mayor es %d\n",num);
-			}
-		}
-		if(num2>num)
-		{
-			if(num2>num3)
-			{
-				printf("el num mayor es %d\n",num2);
-			}
-		}
-		if(num3>num2)
-		{
-			if(num3>num)
-			{
-				printf("el num mayor es %d\n",num3);
-			}
-		}
+		mayor = (num>num2 && num>num3)?num:((num2>num && num2>num3)?num2:num3);
+				printf("el num mayor es %d\n",mayor);
+
+		
 	system("PAUSE");
 	return 0;
 }
